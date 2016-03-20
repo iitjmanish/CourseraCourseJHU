@@ -79,9 +79,7 @@ for(i in 1:subjectLen) {
   }
 }
 head(result)
-write.table(result, "data_with_means.txt") 
-
-
+write.csv(result, "mean_data.csv") 
 
 
 
